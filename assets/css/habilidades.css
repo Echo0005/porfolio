@@ -1,17 +1,91 @@
+.body
+{
+    background-color: gainsboro;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.nav
+{
+    align-items: center;
+    background-color: rgb(10, 10, 153);
+    display: flex;
+    height: 8vh;
+    justify-content: space-evenly;
+    padding: 0vw;
+}
+
+.nav__link
+{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    text-decoration: none;
+}
+
+.nav__link:hover
+{
+    color: silver;
+}
+
+.main
+{
+    align-items: center;
+    background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 92vh;
+}
 
 .skills
 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;    
 }
 
 .skills__soft, .skills__hard
 {
-    border: 0.2vw solid gray;
-    border-radius: 2vw;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.199);
+    border: 0.1vw solid gray;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
     margin: 1vw;
     padding: 1vw;
+    width: 70vw;
+}
+
+.soft__title, .hard__title
+{
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+
+.soft__node
+{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 0.1vw solid gray;
+    border-radius: 0.7vw;
+    display: flex;
+    flex-direction: column;
+    height: 5vw;
+    justify-content: center;
+    margin: 1vw;
+    padding: 1vw;
+    width: 20vw;
+}
+
+.soft__node p
+{
+    font-size: 0.9vw;
+    font-weight: 700;
+    letter-spacing: 0.05vw;
+    text-align: left;
 }
 
 .hard__node
@@ -27,8 +101,9 @@ p
 .front, .back, .dev
 {
     align-items: center;
-    border: 0.2vw solid gray;
-    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.514);
+    border: 0.1vw solid gray;
+    border-radius: 0.7vw;
     display: flex;
     flex-direction: column;
     height: 10vw;

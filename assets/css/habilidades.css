@@ -46,7 +46,7 @@
     flex-direction: column;    
 }
 
-.skills__soft, .skills__hard
+.skills__soft
 {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.199);
@@ -58,6 +58,12 @@
     padding: 1vw;
     width: 70vw;
 }
+
+.skills__hard
+{
+
+}
+
 
 .soft__title, .hard__title
 {
@@ -98,7 +104,17 @@ p
     margin: 0;
 }
 
-.front, .back, .dev
+.front
+{
+    align-items: center;
+    background-color: aliceblue;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.back, .dev
 {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.514);
@@ -116,6 +132,71 @@ p
 .title
 {
     font-size: 1.2vw;
-    font-weight: 600;
-    margin-bottom: 0.5vw;
+    font-weight: 500;
+    margin-top: 1vw;
+}
+
+.angular-hard
+{
+    display: flex;
+}
+
+.node
+{
+    align-items: center;
+    display: flex;
+    padding: 1vw;
+}
+
+.angular
+{
+    border: 0.14vw solid gray;
+    border-radius: 1vw;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.angular__node
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.angular__title
+{
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+    font-size: 1vw;
+    font-weight: bold;
+    margin: 0.5vw 0;
+}
+
+.angular-hard
+{
+    align-items: center;
+    border: 0.1vw solid gray;
+    border-radius: 0.5vw;
+    display: flex;
+    height: 5vw;
+    justify-content: center;
+}
+
+.p-1
+{
+    padding: 1vw 1vw 0 1vw;
+}
+
+.angular_svg
+{
+    padding: 0 0.4vw;
+}
+
+.front__other
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2vw 1vw 2vw;
+    width: 80%;
 }

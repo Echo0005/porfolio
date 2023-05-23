@@ -12,15 +12,15 @@
     display: flex;
     height: 8vh;
     justify-content: space-evenly;
-    padding: 0vw;
+    padding: 0;
 }
 
 .nav__link
 {
     color: rgb(255, 255, 255);
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: 500;
-    letter-spacing: 0.05vw;
+    letter-spacing: 0.05em;
     text-decoration: none;
 }
 
@@ -37,6 +37,7 @@
     display: flex;
     justify-content: center;
     height: 92vh;
+    padding: 0 10vw;
 }
 
 .skills
@@ -50,25 +51,33 @@
 {
     align-items: center;
     background-color: rgba(255, 255, 255, 0.199);
-    border: 0.1vw solid gray;
-    border-radius: 1vw;
+    border: 0.1em solid gray;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
-    margin: 1vw;
-    padding: 1vw;
-    width: 70vw;
+    margin: 1em;
+    padding: 1em;
+    width: 50em;
 }
 
 .skills__hard
 {
-
+    background-color: rgba(220, 220, 220, 0.39);
+    border: 1px solid gray;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 50em;
 }
 
 
 .soft__title, .hard__title
 {
-    font-size: 1.2vw;
+    color: white;
+    font-size: 1.5em;
     font-weight: 700;
+    padding-bottom: 1em;
 }
 
 .soft__node
@@ -76,27 +85,28 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.514);
     border: 0.1vw solid gray;
-    border-radius: 0.7vw;
+    border-radius: 0.7em;
     display: flex;
     flex-direction: column;
-    height: 5vw;
+    height: 5em;
     justify-content: center;
-    margin: 1vw;
-    padding: 1vw;
-    width: 20vw;
+    margin: 0 1em;
+    padding: 1em;
+    width: 20em;
 }
 
 .soft__node p
 {
-    font-size: 0.9vw;
+    font-size: 0.9em;
     font-weight: 700;
-    letter-spacing: 0.05vw;
+    letter-spacing: 0.05em;
     text-align: left;
 }
 
 .hard__node
 {
     display: flex;
+    justify-content: space-evenly;
 }
 
 p
@@ -104,36 +114,44 @@ p
     margin: 0;
 }
 
-.front
+.front, .back
 {
     align-items: center;
-    background-color: aliceblue;
-    border-radius: 0.5vw;
+    background-color: rgb(240, 248, 255);
+    border-radius: 0.5em;
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    height: 24.5em;
+    width: 20em;
 }
 
-.back, .dev
+.node__dev
 {
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    border: 0.1vw solid gray;
-    border-radius: 0.7vw;
+    background-color: rgba(0, 255, 0, 0.534);
+    border: 1px solid gray;
+    border-radius: 1em;
     display: flex;
     flex-direction: column;
-    height: 10vw;
-    justify-content: flex-start;
-    margin: 1vw;
-    padding: 1vw;
-    width: 10vw;
+    height: 10em;
+    margin: 0 1em;
+    width: 10em;
+}
+
+.dev__svg
+{
+    align-items: center;
+    display: flex;
+    height: 8em;
+    justify-content: space-evenly;
+    width: 10em;
 }
 
 .title
 {
-    font-size: 1.2vw;
+    font-size: 1.2em;
     font-weight: 500;
-    margin-top: 1vw;
+    margin-top: 1em;
 }
 
 .angular-hard
@@ -145,15 +163,23 @@ p
 {
     align-items: center;
     display: flex;
-    padding: 1vw;
+    padding: 1em;
 }
 
 .angular
 {
-    border: 0.14vw solid gray;
-    border-radius: 1vw;
-    margin: 1vw;
-    padding: 1vw;
+    border: 0.14em solid gray;
+    border-radius: 1em;
+    margin: 1em 1em 0 1em;
+    padding: 1em;
+}
+
+.java
+{
+    border: 0.14em solid gray;
+    border-radius: 1em;
+    margin: 1em 1em 0 1em;
+    padding: 1em 5em;
 }
 
 .angular__node
@@ -164,39 +190,39 @@ p
     justify-content: center;
 }
 
-.angular__title
+.angular__title, .java__title
 {
     font-family: 'Noto Sans Nandinagari', sans-serif;
-    font-size: 1vw;
+    font-size: 1em;
     font-weight: bold;
-    margin: 0.5vw 0;
+    margin: 0.5em 0;
 }
 
-.angular-hard
+.angular-hard, .java__hard
 {
     align-items: center;
-    border: 0.1vw solid gray;
-    border-radius: 0.5vw;
+    border: 0.1em solid gray;
+    border-radius: 0.5em;
     display: flex;
-    height: 5vw;
+    height: 5em;
     justify-content: center;
 }
 
 .p-1
 {
-    padding: 1vw 1vw 0 1vw;
+    padding: 1em 1em 0 1em;
 }
 
 .angular_svg
 {
-    padding: 0 0.4vw;
+    padding: 0 0.4em;
 }
 
-.front__other
+.front__others, .back__others
 {
     align-items: center;
     display: flex;
+    height: 10em;
     justify-content: space-evenly;
-    padding: 0 2vw 1vw 2vw;
     width: 80%;
 }

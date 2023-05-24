@@ -1,0 +1,63 @@
+.front
+{
+    align-items: center;
+    background-color: rgb(240, 248, 255);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 24.5em;
+    width: 20em;
+}
+
+.angular
+{
+    border: 0.14em solid gray;
+    border-radius: 1em;
+    margin: 1em 1em 0 1em;
+    padding: 1em;
+}
+
+.angular-hard
+{
+    display: flex;
+}
+
+.angular__node
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.angular__title
+{
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0.5em 0;
+}
+
+.angular-hard
+{
+    align-items: center;
+    border: 0.1em solid gray;
+    border-radius: 0.5em;
+    display: flex;
+    height: 5em;
+    justify-content: center;
+}
+
+.angular_svg
+{
+    padding: 0 0.4em;
+}
+
+.front__others
+{
+    align-items: center;
+    display: flex;
+    height: 10em;
+    justify-content: space-evenly;
+    width: 80%;
+}

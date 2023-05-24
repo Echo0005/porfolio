@@ -1,3 +1,22 @@
+
+/* 
+
+    Estructura General:
+
+        Main
+        {
+            Soft Skills
+
+            Hard Skills
+            {
+                Front End
+                Dev Ops
+                Back End
+            }
+        }
+
+*/
+
 .body
 {
     background-color: gainsboro;
@@ -5,60 +24,34 @@
     margin: 0;
 }
 
-.nav
-{
-    align-items: center;
-    background-color: rgb(10, 10, 153);
-    display: flex;
-    height: 8vh;
-    justify-content: space-evenly;
-    padding: 0;
-}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Main */
 
-.nav__link
-{
-    color: rgb(255, 255, 255);
-    font-size: 1em;
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    text-decoration: none;
-}
+    .main
+    {
+        align-items: center;
+        background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+        color: black;
+        display: flex;
+        justify-content: center;
+        height: 92vh;
+        padding: 0 10vw;
+    }
 
-.nav__link:hover
-{
-    color: silver;
-}
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Skills */
 
-.main
-{
-    align-items: center;
-    background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
-    color: black;
-    display: flex;
-    justify-content: center;
-    height: 92vh;
-    padding: 0 10vw;
-}
+    .skills
+    {
+        align-items: center;
+        display: flex;
+        flex-direction: column;    
+    }
 
-.skills
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;    
-}
 
-.skills__soft
-{
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.199);
-    border: 0.1em solid gray;
-    border-radius: 1em;
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-    padding: 1em;
-    width: 50em;
-}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+/* Hard Skills */
 
 .skills__hard
 {
@@ -72,35 +65,12 @@
 }
 
 
-.soft__title, .hard__title
+.hard__title
 {
     color: white;
     font-size: 1.5em;
     font-weight: 700;
     padding-bottom: 1em;
-}
-
-.soft__node
-{
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.514);
-    border: 0.1vw solid gray;
-    border-radius: 0.7em;
-    display: flex;
-    flex-direction: column;
-    height: 5em;
-    justify-content: center;
-    margin: 0 1em;
-    padding: 1em;
-    width: 20em;
-}
-
-.soft__node p
-{
-    font-size: 0.9em;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    text-align: left;
 }
 
 .hard__node
@@ -114,39 +84,6 @@ p
     margin: 0;
 }
 
-.front, .back
-{
-    align-items: center;
-    background-color: rgb(240, 248, 255);
-    border-radius: 0.5em;
-    display: flex;
-    flex-direction: column;
-    height: 24.5em;
-    width: 20em;
-}
-
-.node__dev
-{
-    align-items: center;
-    background-color: rgba(0, 255, 0, 0.534);
-    border: 1px solid gray;
-    border-radius: 1em;
-    display: flex;
-    flex-direction: column;
-    height: 10em;
-    margin: 0 1em;
-    width: 10em;
-}
-
-.dev__svg
-{
-    align-items: center;
-    display: flex;
-    height: 8em;
-    justify-content: space-evenly;
-    width: 10em;
-}
-
 .title
 {
     font-size: 1.2em;
@@ -154,75 +91,9 @@ p
     margin-top: 1em;
 }
 
-.angular-hard
-{
-    display: flex;
-}
-
 .node
 {
     align-items: center;
     display: flex;
     padding: 1em;
-}
-
-.angular
-{
-    border: 0.14em solid gray;
-    border-radius: 1em;
-    margin: 1em 1em 0 1em;
-    padding: 1em;
-}
-
-.java
-{
-    border: 0.14em solid gray;
-    border-radius: 1em;
-    margin: 1em 1em 0 1em;
-    padding: 1em 5em;
-}
-
-.angular__node
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.angular__title, .java__title
-{
-    font-family: 'Noto Sans Nandinagari', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0.5em 0;
-}
-
-.angular-hard, .java__hard
-{
-    align-items: center;
-    border: 0.1em solid gray;
-    border-radius: 0.5em;
-    display: flex;
-    height: 5em;
-    justify-content: center;
-}
-
-.p-1
-{
-    padding: 1em 1em 0 1em;
-}
-
-.angular_svg
-{
-    padding: 0 0.4em;
-}
-
-.front__others, .back__others
-{
-    align-items: center;
-    display: flex;
-    height: 10em;
-    justify-content: space-evenly;
-    width: 80%;
 }

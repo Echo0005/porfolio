@@ -3,14 +3,9 @@
 
 .skills__soft
 {
-    align-items: center;
     background-color: rgba(255, 255, 255, 0.199);
     border: 0.1em solid gray;
     border-radius: 1em;
-    display: flex;
-    flex-direction: column;
-    margin: 1em;
-    padding: 1em;
     width: 50em;
 }
 
@@ -19,21 +14,13 @@
     color: white;
     font-size: 1.5em;
     font-weight: 700;
-    padding-bottom: 1em;
 }
 
 .soft__node
-{
-    align-items: center;
+{   
     background-color: rgba(255, 255, 255, 0.514);
     border: 0.1vw solid gray;
     border-radius: 0.7em;
-    display: flex;
-    flex-direction: column;
-    height: 5em;
-    justify-content: center;
-    margin: 0 1em;
-    padding: 1em;
     width: 20em;
 }
 

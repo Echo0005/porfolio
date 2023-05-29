@@ -20,3 +20,59 @@
 {
     color: silver;
 }
+
+.main
+{
+    background-image: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat;
+    height: 92vh;
+    padding: 0.1em 0;
+    width: 100%;
+}
+
+.personal
+{
+    background-color: rgba(73, 140, 199, 0.459);
+    border: 4px solid rgb(18, 136, 255);
+    border-radius: 0.7em;
+    color: white;
+    width: 80%;
+}
+
+.personal__nombre
+{
+    font-size: 2.5em;
+}
+
+.personal__titulo
+{
+    font-size: 1.5em;
+}
+
+.personal__desc-personal, .personal__desc-profesional
+{
+    font-size: 1.1em;
+    background-color: rgba(0, 48, 121, 0.672);
+    border: 2px solid rgba(0, 0, 0, 0.654);
+    border-radius: 1em;
+    width: 70%;
+}
+
+.desc-personal__titulo
+{
+    text-decoration-line: underline;
+}
+
+@media only screen and ( max-width: 1000px )
+{
+    .personal
+    {
+        border-top: 4px solid rgb(18, 136, 255);
+        border-bottom: 4px solid rgb(18, 136, 255);
+        border-left: 0;
+        border-right: 0;
+        border-radius: 0;   
+        width: 100%;
+    }
+}

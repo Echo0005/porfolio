@@ -1,4 +1,9 @@
 .body
 {
-    background: gainsboro;
+    background: gray;
+}
+
+.icon:hover
+{
+    filter: invert(0.2);
 }

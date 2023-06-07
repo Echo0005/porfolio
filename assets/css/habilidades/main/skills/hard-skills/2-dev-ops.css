@@ -1,11 +1,8 @@
 .node__dev
 {
-    align-items: center;
     background-color: rgba(0, 255, 0, 0.534);
     border: 1px solid gray;
     border-radius: 1em;
-    display: flex;
-    flex-direction: column;
     height: 10em;
     margin: 0 1em;
     width: 10em;

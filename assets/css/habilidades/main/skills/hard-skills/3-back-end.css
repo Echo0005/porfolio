@@ -1,10 +1,7 @@
 .back
 {
-    align-items: center;
     background-color: rgb(240, 248, 255);
     border-radius: 0.5em;
-    display: flex;
-    flex-direction: column;
     height: 24.5em;
     width: 20em;
 }
@@ -17,14 +14,6 @@
     padding: 1em 5em;
 }
 
-.java__node
-{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .java__title
 {
     font-family: 'Noto Sans Nandinagari', sans-serif;
@@ -35,19 +24,13 @@
 
 .java__hard
 {
-    align-items: center;
     border: 0.1em solid gray;
     border-radius: 0.5em;
-    display: flex;
     height: 5em;
-    justify-content: center;
 }
 
 .back__others
 {
-    align-items: center;
-    display: flex;
     height: 10em;
-    justify-content: space-evenly;
     width: 80%;
 }

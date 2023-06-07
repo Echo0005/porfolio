@@ -29,23 +29,9 @@
 
     .main
     {
-        align-items: center;
         background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
         color: black;
-        display: flex;
-        justify-content: center;
         height: 92vh;
-        padding: 0 10vw;
-    }
-
-/* /////////////////////////////////////////////////////////////////////////////////////////////// */
-/* Skills */
-
-    .skills
-    {
-        align-items: center;
-        display: flex;
-        flex-direction: column;    
     }
 
 
@@ -58,9 +44,6 @@
     background-color: rgba(220, 220, 220, 0.39);
     border: 1px solid gray;
     border-radius: 1em;
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
     width: 55rem;
 }
 

@@ -1,4 +1,29 @@
-.body
+.main
 {
-    background-color: gainsboro;
+    background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    color: black;
+    height: 100vh;
+}
+
+.tag
+{
+    background-color: rgba(255, 255, 255, 0.716);
+    border-radius: 0.5em;
+    height: 30%;
+    width: 80%;
+}
+
+.tag__title
+{
+    font-size: 2em;
+}
+
+.tag__descripcion
+{
+    font-size: 1.1em;
+}
+
+.tag__advertencia
+{
+    color: rgb(206, 0, 0);
 }

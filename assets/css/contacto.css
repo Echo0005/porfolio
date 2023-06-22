@@ -1,0 +1,53 @@
+.nav
+{
+    align-items: center;
+    background-color: rgb(10, 10, 153);
+    display: flex;
+    height: 8vh;
+    justify-content: space-evenly;
+}
+
+.nav__link
+{
+    color: silver;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.nav__link:hover
+{
+    color: rgb(255, 255, 255);
+}
+
+.main
+{
+    background-image: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat;
+    color: rgb(255, 255, 255);
+    height: 92vh;
+    padding: 0.1em 0;
+    width: 100%;
+}
+
+.tag
+{
+    background-color: rgba(163, 163, 163, 0.58);
+    border: 1px solid white;
+    border-radius: 1em;
+    width: 50%;
+}
+
+.icon
+{
+    background-color: rgba(255, 145, 0, 0.534);
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+.icon:hover
+{
+    background-color: rgb(255, 145, 0);
+}

@@ -16,3 +16,11 @@
     justify-content: space-evenly;
     width: 10em;
 }
+
+@media all and (max-width: 1024px)
+{
+    .node__dev
+    {
+        margin-bottom: 1em;
+    }
+}

@@ -34,3 +34,11 @@
     height: 10em;
     width: 80%;
 }
+
+@media all and (max-width: 1024px)
+{
+    .back
+    {
+        margin-bottom: 1em;
+    }
+}

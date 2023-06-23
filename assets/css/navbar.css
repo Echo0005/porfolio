@@ -1,7 +1,9 @@
 .nav
 {
-    background-color: rgb(10, 10, 153);
+    background-color: rgba(0, 0, 104, 0.815);
+    border-radius: 1em;
     height: 8vh;
+    margin: 1em;
 }
 
 .nav__link
@@ -26,7 +28,8 @@
 
 .nav__active
 {
-    border-bottom: 3px solid rgb(0, 170, 255);
+    border-bottom: 5px solid rgb(0, 170, 255);
 
     color: white;
+    padding-top: 0.15em;
 }

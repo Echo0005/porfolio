@@ -1,3 +1,9 @@
+html, body
+{
+    width: 100%;
+    overflow: hidden;
+}
+
 .body
 {
     background-image: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
@@ -6,14 +12,13 @@
     background-size: cover;
     color: rgb(255, 255, 255);
     height: 100vh;
-    padding: 0.1em 0;
 }
 
 .main
 {
     display: flex;
         justify-content: center;
-
+    
     height: 80%;
 }
 
@@ -22,7 +27,6 @@
     background-color: rgba(163, 163, 163, 0.58);
     border: 1px solid white;
     border-radius: 1em;
-    margin: 10em 0;
     width: 50%;
 }
 

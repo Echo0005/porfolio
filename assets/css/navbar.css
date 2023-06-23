@@ -2,7 +2,7 @@
 {
     background-color: rgba(0, 0, 104, 0.815);
     border-radius: 1em;
-    height: 8vh;
+    height: 5em;
     margin: 1em;
 }
 
@@ -15,7 +15,7 @@
     color: silver;
     font-size: 1.1em;
     font-weight: 500;
-    height: 8vh;
+    height: 4.5em;
     letter-spacing: 0.05em;
     text-decoration: none;
     width: 10em;
@@ -29,7 +29,6 @@
 .nav__active
 {
     border-bottom: 5px solid rgb(0, 170, 255);
-
     color: white;
-    padding-top: 0.15em;
+    padding-top: 0.3em;
 }

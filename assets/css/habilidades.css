@@ -17,11 +17,20 @@
 
 */
 
+html, body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 .body
 {
-    background-color: gainsboro;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+    background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100vh;
 }
 
 /* /////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -29,12 +38,11 @@
 
     .main
     {
-        background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: black;
-        height: 92vh;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+
+        height: 80%;
     }
 
 
@@ -93,6 +101,12 @@ p
 
 @media all and (max-width: 1024px)
 {
+    html, body
+    {
+        width: 100%;
+        overflow-x: auto;
+    }
+
     .main
     {
         height: auto;

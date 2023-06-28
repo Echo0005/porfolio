@@ -1,0 +1,50 @@
+html, body
+{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body
+{
+    background: url(https://www.wallpapertip.com/wmimgs/32-325739_blue-technical-background-hd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+
+
+.main
+{
+    background-color: rgba(134, 134, 134, 0.802);
+    border-radius: 1em;
+    width: 70%;
+}
+
+.main__nombre
+{
+    font-size: 2em;
+}
+
+.main__titulo
+{
+    font-size: 1.4em;
+}
+
+.main__sobre-mi
+{
+    border: 1px solid white;
+    border-radius: 1em;
+}
+
+.main__descripcion-personal
+{
+    font-size: 1.2em;
+}
+
+.main__descripcion-profecional
+{
+    font-size: 1.2em;
+}

@@ -17,7 +17,8 @@ html, body
 .tag
 {
     background-color: rgba(255, 255, 255, 0.716);
-    border-radius: 0.5em;
+    border-radius: .5em;
+    border: 0;
     height: auto;
     width: 70%;
 }
@@ -32,16 +33,34 @@ html, body
     font-size: 1.1em;
 }
 
-.tag__advertencia
+.bg-fix
 {
-    background-color: rgba(0, 0, 0, 0.599);
-    border-radius: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tag__status
+{
+    background-image: url(../img/tag.svg);
+    border-radius: 0 0 0.5em 0;
     color: rgb(0, 255, 17);
+}
+.tag__status p
+{
+    height: 2em;
+    width: 15em;
 }
 
 .tag__type
 {
-    background-color: rgba(0, 0, 0, 0.599);
-    border-radius: 1em;
+    background-image: url(../img/tag-top.svg);
+    border-radius: 0 0 .5em 0;
     color: orange;
+}
+.tag__type p
+{
+    
+    height: 2em;
+    width: 15em;
 }

@@ -1,9 +1,9 @@
 .nav
 {
     background-color: rgba(0, 0, 104, 0.815);
-    border-radius: 1em;
+    border-radius: 0.5em;
     height: 5em;
-    margin: 1em;
+    margin: 1em 3em;
 }
 
 .nav__link

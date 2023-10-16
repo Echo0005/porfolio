@@ -2,24 +2,18 @@
 {
     background-color: rgb(240, 248, 255);
     border-radius: 0.5em;
-    height: 24.5em;
-    width: 20em;
 }
 
 .java
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border: 0.14em solid gray;
     border-radius: 1em;
-    margin: 1em 1em 0 1em;
-    padding: 1em 5em;
-}
 
-.java__title
-{
-    font-family: 'Noto Sans Nandinagari', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0.5em 0;
+    padding: 0 1em;
 }
 
 .java__hard
@@ -29,10 +23,10 @@
     height: 5em;
 }
 
-.back__others
+.java-pack
 {
-    height: 10em;
-    width: 80%;
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 1em;
 }
 
 @media all and (max-width: 1024px)

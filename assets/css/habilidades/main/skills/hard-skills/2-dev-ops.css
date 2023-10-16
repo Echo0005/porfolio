@@ -1,20 +1,9 @@
 .node__dev
 {
-    background-color: rgba(0, 255, 0, 0.534);
-    border: 1px solid gray;
+    background-color: rgb(240, 248, 255);
     border-radius: 1em;
     height: 10em;
-    margin: 0 1em;
-    width: 10em;
-}
-
-.dev__svg
-{
-    align-items: center;
-    display: flex;
-    height: 8em;
-    justify-content: space-evenly;
-    width: 10em;
+    margin: 1em 0;
 }
 
 @media all and (max-width: 1024px)

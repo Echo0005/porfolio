@@ -42,7 +42,7 @@ html, body
 
 .tag__status
 {
-    background-image: url(../img/tag.svg);
+    background-image: url(../img/svg/tag.svg);
     border-radius: 0 0 0.5em 0;
     color: rgb(0, 255, 17);
 }
@@ -54,7 +54,7 @@ html, body
 
 .tag__type
 {
-    background-image: url(../img/tag-top.svg);
+    background-image: url(../img/svg/tag-top.svg);
     border-radius: 0 0 .5em 0;
     color: orange;
 }

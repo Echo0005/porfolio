@@ -1,56 +1,32 @@
 .front
 {
     background-color: rgb(240, 248, 255);
+
     border-radius: 0.5em;
-    height: 24.5em;
-    width: 20em;
+
+    width: 100%;
 }
 
 .angular
 {
     border: 0.14em solid gray;
     border-radius: 1em;
-    margin: 1em 1em 0 1em;
+
+    margin: 1em 0;
     padding: 1em;
 }
 
-.angular-hard
+.angular-pack
 {
     display: flex;
-}
-
-.angular__title
-{
-    font-family: 'Noto Sans Nandinagari', sans-serif;
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0.5em 0;
-}
-
-.angular-hard
-{
     align-items: center;
-    border: 0.1em solid gray;
-    border-radius: 0.5em;
-    display: flex;
-    height: 5em;
     justify-content: center;
-}
 
-.angular_svg
-{
-    padding: 0 0.4em;
-}
+    border: 1px solid rgb(140, 140, 140);
+    border-radius: 1em;
 
-.front__others
-{
-    align-items: center;
-    display: flex;
-    height: 10em;
-    justify-content: space-evenly;
-    width: 80%;
+    padding: 1em;
 }
-
 
 @media all and (max-width: 1024px)
 {

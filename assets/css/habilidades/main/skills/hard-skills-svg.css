@@ -1,0 +1,94 @@
+/* SVG's · Comienzo */
+
+.angular-svg
+{
+    background: url(../../../../img/svg/hard-skills/angular.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+.html-svg
+{
+    background: url(../../../../img/svg/hard-skills/html.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.css-svg
+{
+    background: url(../../../../img/svg/hard-skills/css.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.ts-svg
+{
+    background: url(../../../../img/svg/hard-skills/ts.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.js-svg
+{
+    background: url(../../../../img/svg/hard-skills/js.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.bs-svg
+{
+    background: url(../../../../img/svg/hard-skills/bootstrap.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.git-svg
+{
+    background: url(../../../../img/svg/hard-skills/git.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+.github-svg
+{
+    background: url(../../../../img/svg/hard-skills/github.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+.java-svg
+{
+    background: url(../../../../img/svg/hard-skills/java.svg) center no-repeat;
+    height: 6.5em;
+    width: 6.5em;
+}
+
+.sb-svg
+{
+    background: url(../../../../img/svg/hard-skills/spring-boot.svg) center no-repeat;
+    height: 4em;
+    width: 4em;
+}
+
+.py-svg
+{
+    background: url(../../../../img/svg/hard-skills/python.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+.mysql-svg
+{
+    background: url(../../../../img/svg/hard-skills/mysql.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+.mariadb-svg
+{
+    background: url(../../../../img/svg/hard-skills/MariaDB.svg) center no-repeat;
+    height: 5em;
+    width: 5em;
+}
+
+/* SVG's · Fin */
